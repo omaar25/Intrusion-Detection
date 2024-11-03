@@ -20,8 +20,6 @@ The dataset used in this project is [[edgeiiotset cyber security](https://www.ka
 - Fingerprinting
 - MITM
 
-
-the
 ## Exploratory Data Analysis (EDA)
 The EDA for this project is documented in the `intrusion-detection-eda.ipynb` notebook. In this notebook, we aimed to understand the dataset and analyze various attack techniques. The focus was on exploring the characteristics of the data, identifying patterns, and gaining insights into the different types of attacks present in the dataset.
 
