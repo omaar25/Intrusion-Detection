@@ -3,7 +3,25 @@
 ## Overview
 This project focuses on developing an Intrusion Detection System (IDS) using various machine learning techniques. The system employs Exploratory Data Analysis to understand attack techniques and subsequently implements LSTM (Long Short-Term Memory networks), Conv1D (1D Convolutional Neural Networks), XGBoost, and Random Forest algorithms to detect intrusions effectively.
 ## Dataset
-The dataset used in this project is [[edgeiiotset cyber security](https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot)]. It consists of network traffic data labeled with various attack techniques.
+The dataset used in this project is [[edgeiiotset cyber security](https://www.kaggle.com/datasets/mohamedamineferrag/edgeiiotset-cyber-security-dataset-of-iot-iiot)]. It consists of network traffic data labeled with various attack techniques, including:
+
+- DDoS_UDP
+- DDoS_ICMP
+- SQL_injection
+- DDoS_TCP
+- Vulnerability_scanner
+- Password
+- DDoS_HTTP
+- Uploading
+- Backdoor
+- Port_Scanning
+- XSS
+- Ransomware
+- Fingerprinting
+- MITM
+
+
+the
 ## Exploratory Data Analysis (EDA)
 The EDA for this project is documented in the `intrusion-detection-eda.ipynb` notebook. In this notebook, we aimed to understand the dataset and analyze various attack techniques. The focus was on exploring the characteristics of the data, identifying patterns, and gaining insights into the different types of attacks present in the dataset.
 
