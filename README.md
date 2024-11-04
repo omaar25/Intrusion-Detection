@@ -43,8 +43,7 @@ The LSTM model is designed to capture temporal dependencies in sequential data, 
   - Activation Function: Softmax
 
 **Performance Metrics:**
-{ 'Accuracy': 0.7173, 'Error': 0.2827, 'Recall': 0.7173, 'Precision': 0.7816, 'F1 Score': 0.7053 }
-
+{'Accuracy': 0.94, 'Error': 0.06, 'Recall': 0.93, 'Precision': 0.95, 'F1 Score': 0.94}
 
 ### 2. CNN Model Architecture
 The CNN model leverages convolutional layers to extract features from the input sequences, providing a powerful mechanism for intrusion detection. The architecture includes the following components:
@@ -89,16 +88,15 @@ The CNN model leverages convolutional layers to extract features from the input 
 
 ### 3. Random Forest
 **Performance Metrics:**
-{ 'Accuracy': 0.8642, 'Error': 0.1358, 'Recall': 0.8642, 'Precision': 0.8795, 'F1 Score': 0.8656 }
-
+{'Accuracy': 0.95, 'Error': 0.04, 'Recall': 0.95, 'Precision': 0.95, 'F1 Score': 0.95}
 
 ### 4. XGBoost
 **Performance Metrics:**
-{ 'Accuracy': 0.9322, 'Error': 0.0678, 'Recall': 0.9322, 'Precision': 0.9424, 'F1 Score': 0.9335 }
+{'Accuracy': 0.94, 'Error': 0.06, 'Recall': 0.94, 'Precision': 0.96, 'F1 Score': 0.94}
 
 
 ## Best Model Selection
-Among the models evaluated, **XGBoost** demonstrated the highest recall at **0.9322**, indicating that it successfully identified a significant proportion of actual positive instances (i.e., intrusions). The performance metrics for each model can be summarized as follows:
+Among the models evaluated, **XGBoost** demonstrated the highest recall at **0.94**, indicating that it successfully identified a significant proportion of actual positive instances (i.e., intrusions). The performance metrics for each model can be summarized as follows:
 
 - **LSTM:** Recall = 0.7173
 - **CNN:** Recall = 0.8050
