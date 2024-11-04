@@ -83,7 +83,7 @@ The CNN model leverages convolutional layers to extract features from the input 
   - Activation Function: Softmax
 
 **Performance Metrics:**
-{ 'Accuracy': 0.8050, 'Error': 0.1950, 'Recall': 0.8050, 'Precision': 0.8689, 'F1 Score': 0.7993 }
+{'Accuracy': 0.80, 'Error': 0.20, 'Recall': 0.80, 'Precision': 0.87, 'F1 Score': 0.80}
 
 
 ### 3. Random Forest
@@ -96,12 +96,12 @@ The CNN model leverages convolutional layers to extract features from the input 
 
 
 ## Best Model Selection
-Among the models evaluated, **XGBoost** demonstrated the highest recall at **0.94**, indicating that it successfully identified a significant proportion of actual positive instances (i.e., intrusions). The performance metrics for each model can be summarized as follows:
+Among the models evaluated, XGBoost, LSTM, and Random Forest demonstrated the highest performance, indicating that they successfully identified a significant proportion of actual positive instances (i.e., intrusions). The performance metrics for each model can be summarized as follows:
 
-- **LSTM:** Recall = 0.7173
-- **CNN:** Recall = 0.8050
-- **Random Forest:** Recall = 0.8642
-- **XGBoost:** Recall = 0.9322
+- **LSTM:** Recall = 0.93
+- **CNN:** Recall = 0.80
+- **Random Forest:** Recall = 0.95
+- **XGBoost:** Recall = 0.94
 
 ### Why Recall Matters
 Recall is a crucial metric in intrusion detection systems for several reasons:
